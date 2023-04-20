@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Image</title>
+    <url>/2023/04/20/Image/</url>
+    <content><![CDATA[<p><img src="/2023/04/20/Image/47621790_p0.jpg"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Markdown示例</title>
+    <url>/2023/04/20/Markdown%E7%A4%BA%E4%BE%8B/</url>
+    <content><![CDATA[<h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<p>正文 <em>正文</em> <strong>正文</strong> <strong><em>正文</em></strong> 转义字符*\</p>
+<p>空行=换行.</p>
+<p>分割线</p>
+<hr>
+<p>行内<span class="math inline">\(e^{At}\)</span>公式</p>
+<p>行间公式</p>
+<p>设置<code>C:\Users\rab_s\AppData\Roaming\Code\User\keybindings.json</code>后, Alt+=可以快捷插入公式</p>
+<p><span class="math display">\[
+\frac{a}{b} = \lambda
+\tag{1}
+\]</span></p>
+<p><span class="math display">\[
+A =
+\begin{bmatrix}
+   1 &amp; 0 &amp; 0 \\
+   0 &amp; 1 &amp; 0 \\
+   0 &amp; 0 &amp; 1
+\end{bmatrix}
+\begin{bmatrix}
+    0 &amp; 1 &amp; 0 \\
+    1 &amp; 0 &amp; 0 \\
+    0 &amp; 0 &amp; 1
+\end{bmatrix}
+\tag{2}
+\]</span></p>
+<p>有序列表(1.之后必须加空格)</p>
+<ol type="1">
+<li><strong>群</strong>是一个拥有满足封闭性、满足结合律、有单位元、有逆元的二元运算的代数结构。</li>
+<li><strong>环</strong>是定义了满足结合律和左、右分配律的乘法的加法群。</li>
+<li><strong>域</strong>是具有单位元和非零元且每个非零元都有其逆元的交换环。</li>
+</ol>
+<p>无序列表</p>
+<ul>
+<li>落落莓</li>
+<li>墩墩桃</li>
+<li>甜甜花</li>
+</ul>
+<p>引用</p>
+<blockquote>
+<p>物无非彼，物无非是。</p>
+</blockquote>
+<hr>
+<p>代码块</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello markdown!&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Goodbye markdown!&quot;</span>)</span><br></pre></td></tr></table></figure>
+<hr>
+<p>三线表, 第二行用来控制左对齐/居中对齐/右对齐</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">姓名</th>
+<th style="text-align: center;">Name</th>
+<th style="text-align: right;">性别</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">林克</td>
+<td style="text-align: center;">Link</td>
+<td style="text-align: right;">男</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">塞尔达</td>
+<td style="text-align: center;">Zelda</td>
+<td style="text-align: right;">女</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><a href="https://www.github.com/">Github</a></p>
+<p>插入图片 <img src="https://ac.bit.edu.cn/images/logo_01.png" alt="图片"></p>
+<p>插入图片链接<a href="https://www.bit.edu.cn/"><img src="https://ac.bit.edu.cn/images/logo_01.png" alt="图片链接"></a></p>
+]]></content>
+      <tags>
+        <tag>工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/04/19/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
